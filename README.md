@@ -13,12 +13,13 @@ For Go 1.18 and up.
 | slices.Map      | Array.prototype.map      |
 | slices.Reduce   | Array.prototype.reduce   |
 | slices.Includes | Array.prototype.includes |
+| slices.Concat   | Array.prototype.concat   |
 
 ## Available functions (reactive)
 
-|      Go         | Javascrip equivalent          |
-|-----------------|-------------------------------|
-| rx.Deboubce     | lodash.debouce / rxjs.debouce |
+|      Go         | Javascrip equivalent           |
+|-----------------|--------------------------------|
+| rx.Debounce     | _.debouce / rxjs.debounce      |
 
 ## Uhm, the name?
 Literally the first thing on my desk that came in my sight
