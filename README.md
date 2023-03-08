@@ -16,7 +16,7 @@ For Go 1.18 and up.
 | slices.Concat   | Array.prototype.concat   |
 
 |     Go          | Guava                    |
-|--------------------------------------------|
+|-----------------|--------------------------|
 | slices.Partition| partition                |
 
 ## Available functions (reactive)
