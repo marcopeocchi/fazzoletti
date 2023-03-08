@@ -13,10 +13,10 @@ func Concat[T any](s [][]T) []T {
 		totalLen += len(s)
 	}
 
-	result := make([]T, totalLen)
+	res := make([]T, totalLen)
 	for _, s := range s {
-		i += copy(result[i:], s)
+		i += copy(res[i:], s)
 	}
 
-	return result
+	return res
 }

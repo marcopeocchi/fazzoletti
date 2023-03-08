@@ -17,7 +17,7 @@ import "time"
 //	       -t->          |>   t is a timer tick
 //	             -t->    |>
 //
-// --A-----C-----G-------|>
+// --A-----C-----F-------|>
 func Debounce(interval time.Duration, source chan string, cb func(emit string)) {
 	var item string
 	timer := time.NewTimer(interval)
